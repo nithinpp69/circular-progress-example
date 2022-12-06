@@ -1,5 +1,5 @@
 import React from 'react';
-import {SafeAreaView, ScrollView, StyleSheet, Text} from 'react-native';
+import {SafeAreaView, ScrollView, StyleSheet} from 'react-native';
 import CircularProgress from 'react-native-circular-progress-indicator';
 
 const AnimatedStrokeColor = () => {

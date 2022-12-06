@@ -23,7 +23,7 @@ function HomeScreen({navigation}) {
   );
 }
 
-const Button = ({title, onPress}) => {
+export const Button = ({title, onPress}) => {
   return (
     <TouchableOpacity style={styles.button} onPress={onPress}>
       <Text style={styles.buttonText}>{title}</Text>
